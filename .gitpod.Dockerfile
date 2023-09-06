@@ -1,7 +1,7 @@
 FROM gitpod/workspace-full
 
-RUN chmod +x setup.sh
-RUN sh setup.sh
+#RUN chmod +x setup.sh
+RUN sh -c "setup.sh"
 
 # RUN sudo apt-get update
 # RUN sudo apt-get install -y vim tree curl build-essential make gcc sudo less git rsync
